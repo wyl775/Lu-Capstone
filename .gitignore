@@ -1,0 +1,19 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+/.quarto/
+**/*.quarto_ipynb
+
+# Participant-level data: not for public release (data-use agreement with Dr. Webb)
+uvlt_data.csv
+
+# Local working backups, not part of the submitted product
+index_v*.qmd
+index_backup_*.qmd
+.DS_Store
+
+# Rendered copies of the local working backups: not part of the published site
+docs/index_v*.html
+docs/index_backup_*.html
